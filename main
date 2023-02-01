@@ -1,0 +1,9 @@
+n = 0
+numero = int(input("¿En que numero estas pensando? \n"))
+while n<5 :
+    if (numero % 2 == 0):
+        numero = int(input("Es un numero par!¿Puedes añadir otro?\n") )
+        n = n +1
+    else:
+        numero = int(input("Es un numero impar!¿Puedes añadir otro?\n"))
+        n = n +1
